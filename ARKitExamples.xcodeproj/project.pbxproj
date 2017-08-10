@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		619D61B91F1CD157002E0046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619D61B81F1CD157002E0046 /* AppDelegate.swift */; };
+		619D61BE1F1CD157002E0046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619D61BC1F1CD157002E0046 /* Main.storyboard */; };
+		619D61C01F1CD157002E0046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 619D61BF1F1CD157002E0046 /* Assets.xcassets */; };
+		619D61C31F1CD157002E0046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619D61C11F1CD157002E0046 /* LaunchScreen.storyboard */; };
+		619D61CC1F1CD47F002E0046 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619D61CB1F1CD47F002E0046 /* RootViewController.swift */; };
+		619D61CE1F1CD58F002E0046 /* RulerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619D61CD1F1CD58F002E0046 /* RulerViewController.swift */; };
+		619D61D11F1CD722002E0046 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619D61D01F1CD722002E0046 /* Plane.swift */; };
+		619D61D31F1CDA7E002E0046 /* LaserRulerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619D61D21F1CDA7E002E0046 /* LaserRulerViewController.swift */; };
+		619D61D51F1CE865002E0046 /* FlyingObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619D61D41F1CE865002E0046 /* FlyingObjectViewController.swift */; };
+		619D61D91F1CE90B002E0046 /* Drone.scn in Resources */ = {isa = PBXBuildFile; fileRef = 619D61D81F1CE90B002E0046 /* Drone.scn */; };
+		619D61DB1F1CE93B002E0046 /* Drone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619D61DA1F1CE93B002E0046 /* Drone.swift */; };
+		619D61DF1F1CF258002E0046 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619D61DE1F1CF258002E0046 /* BaseViewController.swift */; };
+		61A5CC621F1F85CD00C5E70C /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A5CC611F1F84DB00C5E70C /* NavigationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		619D61B51F1CD157002E0046 /* ARKitExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		619D61B81F1CD157002E0046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		619D61BD1F1CD157002E0046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		619D61BF1F1CD157002E0046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		619D61C21F1CD157002E0046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		619D61C41F1CD157002E0046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		619D61CB1F1CD47F002E0046 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		619D61CD1F1CD58F002E0046 /* RulerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulerViewController.swift; sourceTree = "<group>"; };
+		619D61D01F1CD722002E0046 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		619D61D21F1CDA7E002E0046 /* LaserRulerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserRulerViewController.swift; sourceTree = "<group>"; };
+		619D61D41F1CE865002E0046 /* FlyingObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingObjectViewController.swift; sourceTree = "<group>"; };
+		619D61D71F1CE8FA002E0046 /* Drone.dae */ = {isa = PBXFileReference; lastKnownFileType = text.xml.dae; path = Drone.dae; sourceTree = "<group>"; };
+		619D61D81F1CE90B002E0046 /* Drone.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Drone.scn; sourceTree = "<group>"; };
+		619D61DA1F1CE93B002E0046 /* Drone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drone.swift; sourceTree = "<group>"; };
+		619D61DE1F1CF258002E0046 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		61A5CC611F1F84DB00C5E70C /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		619D61B21F1CD157002E0046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		619D61AC1F1CD157002E0046 = {
+			isa = PBXGroup;
+			children = (
+				619D61B71F1CD157002E0046 /* ARKitExamples */,
+				619D61B61F1CD157002E0046 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		619D61B61F1CD157002E0046 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				619D61B51F1CD157002E0046 /* ARKitExamples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		619D61B71F1CD157002E0046 /* ARKitExamples */ = {
+			isa = PBXGroup;
+			children = (
+				619D61B81F1CD157002E0046 /* AppDelegate.swift */,
+				619D61BC1F1CD157002E0046 /* Main.storyboard */,
+				619D61D61F1CE8EC002E0046 /* 3DObjects */,
+				619D61CF1F1CD710002E0046 /* Shared */,
+				619D61CA1F1CD45E002E0046 /* Controllers */,
+				619D61BF1F1CD157002E0046 /* Assets.xcassets */,
+				619D61C11F1CD157002E0046 /* LaunchScreen.storyboard */,
+				619D61C41F1CD157002E0046 /* Info.plist */,
+			);
+			path = ARKitExamples;
+			sourceTree = "<group>";
+		};
+		619D61CA1F1CD45E002E0046 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				61A5CC611F1F84DB00C5E70C /* NavigationController.swift */,
+				619D61DE1F1CF258002E0046 /* BaseViewController.swift */,
+				619D61CB1F1CD47F002E0046 /* RootViewController.swift */,
+				619D61CD1F1CD58F002E0046 /* RulerViewController.swift */,
+				619D61D21F1CDA7E002E0046 /* LaserRulerViewController.swift */,
+				619D61D41F1CE865002E0046 /* FlyingObjectViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		619D61CF1F1CD710002E0046 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				619D61D01F1CD722002E0046 /* Plane.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		619D61D61F1CE8EC002E0046 /* 3DObjects */ = {
+			isa = PBXGroup;
+			children = (
+				619D61D71F1CE8FA002E0046 /* Drone.dae */,
+				619D61D81F1CE90B002E0046 /* Drone.scn */,
+				619D61DA1F1CE93B002E0046 /* Drone.swift */,
+			);
+			path = 3DObjects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		619D61B41F1CD157002E0046 /* ARKitExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 619D61C71F1CD157002E0046 /* Build configuration list for PBXNativeTarget "ARKitExamples" */;
+			buildPhases = (
+				619D61B11F1CD157002E0046 /* Sources */,
+				619D61B21F1CD157002E0046 /* Frameworks */,
+				619D61B31F1CD157002E0046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARKitExamples;
+			productName = ARKitExamples;
+			productReference = 619D61B51F1CD157002E0046 /* ARKitExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		619D61AD1F1CD157002E0046 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Evgeniy Antonov";
+				TargetAttributes = {
+					619D61B41F1CD157002E0046 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = 619D61B01F1CD157002E0046 /* Build configuration list for PBXProject "ARKitExamples" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 619D61AC1F1CD157002E0046;
+			productRefGroup = 619D61B61F1CD157002E0046 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				619D61B41F1CD157002E0046 /* ARKitExamples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		619D61B31F1CD157002E0046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619D61C31F1CD157002E0046 /* LaunchScreen.storyboard in Resources */,
+				619D61C01F1CD157002E0046 /* Assets.xcassets in Resources */,
+				619D61BE1F1CD157002E0046 /* Main.storyboard in Resources */,
+				619D61D91F1CE90B002E0046 /* Drone.scn in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		619D61B11F1CD157002E0046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619D61D51F1CE865002E0046 /* FlyingObjectViewController.swift in Sources */,
+				619D61CE1F1CD58F002E0046 /* RulerViewController.swift in Sources */,
+				619D61DB1F1CE93B002E0046 /* Drone.swift in Sources */,
+				619D61B91F1CD157002E0046 /* AppDelegate.swift in Sources */,
+				61A5CC621F1F85CD00C5E70C /* NavigationController.swift in Sources */,
+				619D61DF1F1CF258002E0046 /* BaseViewController.swift in Sources */,
+				619D61D11F1CD722002E0046 /* Plane.swift in Sources */,
+				619D61D31F1CDA7E002E0046 /* LaserRulerViewController.swift in Sources */,
+				619D61CC1F1CD47F002E0046 /* RootViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		619D61BC1F1CD157002E0046 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				619D61BD1F1CD157002E0046 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		619D61C11F1CD157002E0046 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				619D61C21F1CD157002E0046 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		619D61C51F1CD157002E0046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		619D61C61F1CD157002E0046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		619D61C81F1CD157002E0046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J5BJ6M865W;
+				INFOPLIST_FILE = ARKitExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RG.ARKitExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		619D61C91F1CD157002E0046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J5BJ6M865W;
+				INFOPLIST_FILE = ARKitExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RG.ARKitExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		619D61B01F1CD157002E0046 /* Build configuration list for PBXProject "ARKitExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				619D61C51F1CD157002E0046 /* Debug */,
+				619D61C61F1CD157002E0046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		619D61C71F1CD157002E0046 /* Build configuration list for PBXNativeTarget "ARKitExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				619D61C81F1CD157002E0046 /* Debug */,
+				619D61C91F1CD157002E0046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 619D61AD1F1CD157002E0046 /* Project object */;
+}
